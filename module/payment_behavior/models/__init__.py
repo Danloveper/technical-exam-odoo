@@ -1,4 +1,5 @@
 from . import res_partner
 from . import credit_score
 from . import account_move
+from . import account_payment_register
 from . import account_move_line
