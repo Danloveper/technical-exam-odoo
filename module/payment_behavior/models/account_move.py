@@ -151,3 +151,6 @@ class AccountMove(models.Model):
                     i.write(default_vals)
             else:
                 i.write(default_vals)
+
+    def update_payment_behavior(self):
+        return self.partner_id._calculate_payment_behavior()
